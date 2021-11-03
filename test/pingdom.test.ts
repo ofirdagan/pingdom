@@ -1,3 +1,3 @@
-import {init} from '../src/pingdom';
+import {monitor} from '../src/pingdom';
 
-init('test');
+monitor('test');

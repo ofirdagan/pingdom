@@ -1,10 +1,11 @@
 {
   "name": "@ofirdagan/pingdom",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "my own lightweight version of pingdom (service monitoring)",
-  "main": "src/pingdom.ts",
+  "main": "dist/pingdom.js",
   "scripts": {
     "test": "ts-node test/pingdom.test -d",
+    "prepack": "npm run build",
     "build": "tsc"
   },
   "repository": {
