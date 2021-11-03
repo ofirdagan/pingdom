@@ -1,0 +1,31 @@
+{
+  "name": "@ofirdagan/pingdom",
+  "version": "1.0.0",
+  "description": "my own lightweight version of pingdom (service monitoring)",
+  "main": "src/pingdom.ts",
+  "scripts": {
+    "test": "ts-node test/pingdom.test -d",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ofirdagan/pingdom.git"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  },
+  "author": "Ofir Dagan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ofirdagan/pingdom/issues"
+  },
+  "homepage": "https://github.com/ofirdagan/pingdom#readme",
+  "dependencies": {
+    "axios": "^0.24.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.4.4",
+    "@types/node": "^16.11.6",
+    "ts-node": "^10.4.0"
+  }
+}
