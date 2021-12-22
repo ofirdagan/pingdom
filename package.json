@@ -22,7 +22,8 @@
   },
   "homepage": "https://github.com/ofirdagan/pingdom#readme",
   "dependencies": {
-    "axios": "^0.24.0"
+    "axios": "^0.24.0",
+    "axios-retry": "^3.2.4"
   },
   "devDependencies": {
     "typescript": "^4.4.4",
