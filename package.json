@@ -1,6 +1,6 @@
 {
   "name": "@ofirdagan/pingdom",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "my own lightweight version of pingdom (service monitoring)",
   "main": "dist/pingdom.js",
   "scripts": {
